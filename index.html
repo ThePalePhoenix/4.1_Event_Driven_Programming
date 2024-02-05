@@ -1,0 +1,42 @@
+<!--Elias Kinard-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Start of the header. Title "Index Page"-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking to the "main.css" stylesheet. Provides styling for the HTML page-->
+    <link rel="stylesheet" href="main.css">
+    <!--Link to the javascript for this page.-->
+    <script src="main.js"></script>
+    <!--A very basic, but appropriate, title.-->
+    <title>Index Page</title>
+</head>
+<!--The start of the body. Changed the font to Courier New and aligned everything to the center of the page-->
+<body style="font-family:Courier New; text-align:center;">
+    <h1>
+        <!--A similar case to the <title>-->
+        The Index
+    </h1>
+    <p>
+        <!--A joke I thought would be tasteful, yet funny.-->
+        <img id="Byte_Joke" src="Byte_Joke.jpg">
+    </p>
+    <!--Breaks and a horizontal rule for spacing-->
+    <br>
+    <hr>
+    <br>
+    <!--The play button and the stop button, with associated images.-->
+    <button type="button" onclick="document.getElementById('stop').id='mover'; draw();"><img id="play_button" src="playbutton.png"></button>
+    <button type="button" onclick="stop()"><img id="stop_button" src="stopbutton.png"></button>
+    <br>
+    <br>
+    <!--The moving image ('stop' and 'mover'), along with its parent container (appropriately named 'container')-->
+    <div id="container">
+    <img id="stop" src="And.jpg"></img>
+    </div>
+
+<!--End of paragraph above, end of body below-->
+</body>
+<!--And the end of the HTML document-->
+</html>

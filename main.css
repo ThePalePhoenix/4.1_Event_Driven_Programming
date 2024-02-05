@@ -1,0 +1,56 @@
+/*Elias Kinard*/
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#Byte_Joke{
+    text-align: center;
+    width: 480px;
+    height: 377px;
+}
+
+#play_button{
+    width: 100px;
+    height: 100px;
+}
+
+#stop_button{
+    width: 100px;
+    height: 100px;
+}
+
+head{
+    text-align: center;
+}
+
+#container {
+    position: relative;
+}
+
+#mover {
+    position: absolute;
+    display: block;
+    width: 315px;
+    height: 360px;
+    background: red;
+}
+
+#stop {
+    text-align: center;
+    width: 315px;
+    height: 360px;
+}
